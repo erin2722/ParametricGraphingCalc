@@ -1,0 +1,51 @@
+/*code written by abhi*/
+
+body {
+  margin:0;
+  padding:0;
+  font: 14px Verdana, sans serif;
+  background: linear-gradient(#48877B, #B4E3DB);
+}
+canvas {
+   background: #f9fbfc;
+   display: inline-block;
+   border-width: medium;
+   border-style: solid;
+   margin-left: 150px;
+   margin-top: 5px;
+}
+
+#pgHead {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#inputBox {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 400px;
+  height: 500px;
+  background: #f9fbfc;
+  border-width: medium;
+  border-style: solid;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+#functions {
+  display: inline-block;
+  margin-top:20px;
+  margin-left: 22px;
+}
+
+button {
+  width: 80px;
+  height:35px;
+  border-width: thick;
+  border-radius: 5px;
+  border-color: #f9fbfc;
+}
+
+#graph {
+  bottom:20px;
+}

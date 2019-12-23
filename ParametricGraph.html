@@ -1,0 +1,29 @@
+<!--code written by me-->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Parametric Graphing Calculator</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="ParametricGraph.css"/>
+</head>
+<h1 id = "pGHead" align="center" style="font-size:40px;font-family:Georgia;" <> Parametric Graphing Calculator </h1>
+<body
+  bgcolor="#5BD2BF">
+  <canvas id="canvas" height="500" width="500" RenderTransformOrigin="0,0"></canvas>
+  <div id="inputBox" height="500" width="250">
+    <div id="functions" style="font-family:Georgia;">
+      Enter x function in terms of t: <input type="string" id="xFunctionInput"> <br><br>
+      Enter y function in terms of t: <input type="string" id="yFunctionInput"> <br><br>
+      Enter t min: <input type="number" id="tMin"> <br><br>
+      Enter t max: <input type="number" id="tMax"> <br><br>
+      Enter the x coordinate for velocity and acceleration: <input type="text" id="xCood"><br><br>
+      Velocity: <p id="velocity"></p><br><br>
+      Acceleration: <p id="acceleration"></p><br><br>
+      <button id="graph" style="font-family:Georgia;">Graph it!</button> <br><br>
+      <button id="clear" style="font-family:Georgia;">Clear</button>
+    </div>
+  </div>
+  <script src="ParametricGraph.js"></script>
+</body>
+</html>
